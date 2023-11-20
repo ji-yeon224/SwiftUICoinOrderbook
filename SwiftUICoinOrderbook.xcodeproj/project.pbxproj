@@ -11,6 +11,8 @@
 		CEBDFBDD2B0AFFF900D43BF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDFBDC2B0AFFF900D43BF9 /* ContentView.swift */; };
 		CEBDFBDF2B0AFFFA00D43BF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBDFBDE2B0AFFFA00D43BF9 /* Assets.xcassets */; };
 		CEBDFBE22B0AFFFA00D43BF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBDFBE12B0AFFFA00D43BF9 /* Preview Assets.xcassets */; };
+		CEBDFBEA2B0B090E00D43BF9 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDFBE82B0B090E00D43BF9 /* Banner.swift */; };
+		CEBDFBEB2B0B090E00D43BF9 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDFBE92B0B090E00D43BF9 /* Money.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		CEBDFBDC2B0AFFF900D43BF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEBDFBDE2B0AFFFA00D43BF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEBDFBE12B0AFFFA00D43BF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEBDFBE82B0B090E00D43BF9 /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		CEBDFBE92B0B090E00D43BF9 /* Money.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		CEBDFBD92B0AFFF900D43BF9 /* SwiftUICoinOrderbook */ = {
 			isa = PBXGroup;
 			children = (
+				CEBDFBE82B0B090E00D43BF9 /* Banner.swift */,
+				CEBDFBE92B0B090E00D43BF9 /* Money.swift */,
 				CEBDFBDA2B0AFFF900D43BF9 /* SwiftUICoinOrderbookApp.swift */,
 				CEBDFBDC2B0AFFF900D43BF9 /* ContentView.swift */,
 				CEBDFBDE2B0AFFFA00D43BF9 /* Assets.xcassets */,
@@ -139,6 +145,8 @@
 			files = (
 				CEBDFBDD2B0AFFF900D43BF9 /* ContentView.swift in Sources */,
 				CEBDFBDB2B0AFFF900D43BF9 /* SwiftUICoinOrderbookApp.swift in Sources */,
+				CEBDFBEB2B0B090E00D43BF9 /* Money.swift in Sources */,
+				CEBDFBEA2B0B090E00D43BF9 /* Banner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
