@@ -16,6 +16,10 @@
 		CEBDFBED2B0B0A7E00D43BF9 /* ContentViewAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDFBEC2B0B0A7E00D43BF9 /* ContentViewAssignment.swift */; };
 		CEF386B62B0C4A220011E002 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF386B52B0C4A220011E002 /* OverlayView.swift */; };
 		CEF386B92B0C4E750011E002 /* UpbitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF386B82B0C4E750011E002 /* UpbitAPI.swift */; };
+		CEF386BB2B0C59660011E002 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF386BA2B0C59660011E002 /* ContentViewModel.swift */; };
+		CEF386BD2B0C73370011E002 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF386BC2B0C73370011E002 /* ListView.swift */; };
+		CEF386BF2B0C73520011E002 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF386BE2B0C73520011E002 /* ListViewModel.swift */; };
+		CEF386C12B0C80980011E002 /* BannerTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF386C02B0C80980011E002 /* BannerTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		CEBDFBEC2B0B0A7E00D43BF9 /* ContentViewAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewAssignment.swift; sourceTree = "<group>"; };
 		CEF386B52B0C4A220011E002 /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
 		CEF386B82B0C4E750011E002 /* UpbitAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpbitAPI.swift; sourceTree = "<group>"; };
+		CEF386BA2B0C59660011E002 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		CEF386BC2B0C73370011E002 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		CEF386BE2B0C73520011E002 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		CEF386C02B0C80980011E002 /* BannerTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				CEBDFBEC2B0B0A7E00D43BF9 /* ContentViewAssignment.swift */,
 				CEBDFBDA2B0AFFF900D43BF9 /* SwiftUICoinOrderbookApp.swift */,
 				CEBDFBDC2B0AFFF900D43BF9 /* ContentView.swift */,
+				CEF386C02B0C80980011E002 /* BannerTestView.swift */,
+				CEF386BC2B0C73370011E002 /* ListView.swift */,
+				CEF386BE2B0C73520011E002 /* ListViewModel.swift */,
+				CEF386BA2B0C59660011E002 /* ContentViewModel.swift */,
 				CEF386B52B0C4A220011E002 /* OverlayView.swift */,
 				CEBDFBDE2B0AFFFA00D43BF9 /* Assets.xcassets */,
 				CEBDFBE02B0AFFFA00D43BF9 /* Preview Content */,
@@ -168,8 +180,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF386BF2B0C73520011E002 /* ListViewModel.swift in Sources */,
+				CEF386BB2B0C59660011E002 /* ContentViewModel.swift in Sources */,
+				CEF386BD2B0C73370011E002 /* ListView.swift in Sources */,
 				CEBDFBDD2B0AFFF900D43BF9 /* ContentView.swift in Sources */,
 				CEBDFBDB2B0AFFF900D43BF9 /* SwiftUICoinOrderbookApp.swift in Sources */,
+				CEF386C12B0C80980011E002 /* BannerTestView.swift in Sources */,
 				CEBDFBEB2B0B090E00D43BF9 /* Money.swift in Sources */,
 				CEF386B62B0C4A220011E002 /* OverlayView.swift in Sources */,
 				CEBDFBED2B0B0A7E00D43BF9 /* ContentViewAssignment.swift in Sources */,

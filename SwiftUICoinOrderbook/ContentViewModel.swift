@@ -1,5 +1,5 @@
 //
-//  UpbitAPI.swift
+//  ContentViewModel.swift
 //  SwiftUICoinOrderbook
 //
 //  Created by 김지연 on 11/21/23.
@@ -7,23 +7,16 @@
 
 import Foundation
 
-struct Market: Codable, Hashable {
-    let market, koreanName, englishName: String
-
-    enum CodingKeys: String, CodingKey {
-        case market
-        case koreanName = "korean_name"
-        case englishName = "english_name"
+final class ContentViewModel: ObservableObject {
+    
+    @Published var banner = Banner()
+    @Published var market: [Market] = []
+    
+    func fetchBanner() {
+        banner.total = Int.random(in: 1000...5000) * 150
     }
-}
-
-
-
-struct UpbitAPI {
     
-    private init() { }
-    
-    static func fetchAllMarket(completion: @escaping ([Market]) -> Void) {
+    func fetchAllMarket() {
         let url = URL(string: "https://api.upbit.com/v1/market/all")!
         
         URLSession.shared.dataTask(with: url) { data, resoonse, error in
@@ -34,7 +27,7 @@ struct UpbitAPI {
             do {
                 let decodedData = try JSONDecoder().decode([Market].self, from: data)
                 DispatchQueue.main.async {
-                    completion(decodedData)
+                    self.market = decodedData
                 }
             } catch {
                 print(error)

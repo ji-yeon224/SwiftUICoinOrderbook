@@ -9,19 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var banner = "23,456,789,234원"
-    @State private var money: [Money] = []
+    @ObservedObject var viewModel = ContentViewModel()
+    @State var renderingTestNumber = 0
+    
+    
+//    @State private var banner = "23,456,789,234원"
+//    @State private var market: [Market] = []
     
     var body: some View {
         
         NavigationStack {
             ScrollView {
+                Text("테스트: \(renderingTestNumber)")
+                NavigationLink("배너테스트", value: renderingTestNumber)
                 VStack {
                     ScrollView(.horizontal) {
                         LazyHStack {
                             ForEach(1..<5) { data in
                                 bannerView()
                                     .containerRelativeFrame(.horizontal)
+                                    .onTapGesture {
+                                        viewModel.fetchBanner() 
+                                    }
                             }
                             
                         }
@@ -31,33 +40,31 @@ struct ContentView: View {
                     .scrollIndicators(.visible)
                     .scrollTargetBehavior(.viewAligned)
 //                    .safeAreaPadding([.horizontal], 40)
-                    LazyVStack {
-                        ForEach(money, id: \.id) { data in
-                            listView(data: data)
-                            
-                        }
-                        
-                    }
+                    
+                    ListView() // 하위뷰
+                    
                 }
                 
             }
             .scrollIndicators(.hidden)
             .refreshable { // 당겨서 새로고침 (iOS15~)
-                banner = "987,456,732원"
-                money = dummy.shuffled()
-            }
-            .onAppear {
-                money = dummy.shuffled()
+                //viewModel.fetchBanner()
+                renderingTestNumber = Int.random(in: 1...100)
             }
             .navigationTitle("My Wallet")
+            .navigationDestination(for: Int.self) { _ in
+                BannerTestView(testNumber: $renderingTestNumber)
+            }
         }
+        
+        
     }
     
     func bannerView() -> some View {
         ZStack {
             Rectangle()
                 .fill(
-                    LinearGradient(gradient: Gradient(colors: [Color.purple, Color.blue]), startPoint: .bottomLeading, endPoint: .trailing)
+                    LinearGradient(gradient: Gradient(colors: [viewModel.banner.color, Color.blue]), startPoint: .bottomLeading, endPoint: .trailing)
               )
                 .overlay {
                     Circle()
@@ -74,13 +81,13 @@ struct ContentView: View {
                 Spacer()
                 Text("나의 소비내역")
                     .font(.title3)
-                Text(banner)
+                Text(viewModel.banner.totalFormat)
                     .bold()
                     .font(.title)
             }
-            .visualEffect { content, geometryProxy in
-                content.offset(x: scrollOffset(geometryProxy))
-            }
+//            .visualEffect { content, geometryProxy in
+//                content.offset(x: scrollOffset(geometryProxy))
+//            }
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(.vertical, 10)
             
@@ -94,23 +101,7 @@ struct ContentView: View {
         return -result
     }
     
-    // 값 전달을 할 때는 property보다 function을 사용하는 것이 더 좋음
-    func listView(data: Money) -> some View {
-        HStack {
-            VStack(alignment: .leading) {
-                Text(data.product)
-                    .bold()
-                Text(data.category.rawValue)
-                    .font(.subheadline)
-            }
-            Spacer()
-            Text(data.amountFormat)
-                .bold()
-        }
-        .padding(.horizontal, 20)
-        .padding(.vertical, 8)
-        
-    }
+    
 }
 
 #Preview {
