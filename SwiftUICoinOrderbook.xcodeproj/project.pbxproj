@@ -20,6 +20,9 @@
 		CEF386BD2B0C73370011E002 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF386BC2B0C73370011E002 /* ListView.swift */; };
 		CEF386BF2B0C73520011E002 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF386BE2B0C73520011E002 /* ListViewModel.swift */; };
 		CEF386C12B0C80980011E002 /* BannerTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF386C02B0C80980011E002 /* BannerTestView.swift */; };
+		CEFD67162B0D85E900EF5E69 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD67152B0D85E900EF5E69 /* WalletView.swift */; };
+		CEFD67182B0D992300EF5E69 /* WalletDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD67172B0D992300EF5E69 /* WalletDetailView.swift */; };
+		CEFD671A2B0DA52A00EF5E69 /* WalletModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD67192B0DA52A00EF5E69 /* WalletModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		CEF386BC2B0C73370011E002 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		CEF386BE2B0C73520011E002 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		CEF386C02B0C80980011E002 /* BannerTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTestView.swift; sourceTree = "<group>"; };
+		CEFD67152B0D85E900EF5E69 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		CEFD67172B0D992300EF5E69 /* WalletDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletDetailView.swift; sourceTree = "<group>"; };
+		CEFD67192B0DA52A00EF5E69 /* WalletModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,7 @@
 		CEBDFBCE2B0AFFF900D43BF9 = {
 			isa = PBXGroup;
 			children = (
+				CEFD67142B0D85BA00EF5E69 /* Animation */,
 				CEBDFBD92B0AFFF900D43BF9 /* SwiftUICoinOrderbook */,
 				CEBDFBD82B0AFFF900D43BF9 /* Products */,
 			);
@@ -108,6 +115,16 @@
 				CEF386B82B0C4E750011E002 /* UpbitAPI.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		CEFD67142B0D85BA00EF5E69 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				CEFD67152B0D85E900EF5E69 /* WalletView.swift */,
+				CEFD67192B0DA52A00EF5E69 /* WalletModel.swift */,
+				CEFD67172B0D992300EF5E69 /* WalletDetailView.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,10 +204,13 @@
 				CEBDFBDB2B0AFFF900D43BF9 /* SwiftUICoinOrderbookApp.swift in Sources */,
 				CEF386C12B0C80980011E002 /* BannerTestView.swift in Sources */,
 				CEBDFBEB2B0B090E00D43BF9 /* Money.swift in Sources */,
+				CEFD67182B0D992300EF5E69 /* WalletDetailView.swift in Sources */,
+				CEFD671A2B0DA52A00EF5E69 /* WalletModel.swift in Sources */,
 				CEF386B62B0C4A220011E002 /* OverlayView.swift in Sources */,
 				CEBDFBED2B0B0A7E00D43BF9 /* ContentViewAssignment.swift in Sources */,
 				CEF386B92B0C4E750011E002 /* UpbitAPI.swift in Sources */,
 				CEBDFBEA2B0B090E00D43BF9 /* Banner.swift in Sources */,
+				CEFD67162B0D85E900EF5E69 /* WalletView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
