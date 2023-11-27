@@ -10,6 +10,9 @@
 		CEA902F62B141D8F00F09FB8 /* SeSACView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA902F52B141D8F00F09FB8 /* SeSACView.swift */; };
 		CEA902F82B141E6300F09FB8 /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA902F72B141E6300F09FB8 /* MyWebView.swift */; };
 		CEA902FA2B14219B00F09FB8 /* MyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA902F92B14219B00F09FB8 /* MyTextField.swift */; };
+		CEA902FD2B14328D00F09FB8 /* HorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA902FC2B14328D00F09FB8 /* HorizontalView.swift */; };
+		CEA902FF2B14357100F09FB8 /* HorizontalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA902FE2B14357100F09FB8 /* HorizontalData.swift */; };
+		CEA903012B143C6400F09FB8 /* HorizontalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA903002B143C6400F09FB8 /* HorizontalViewModel.swift */; };
 		CEBDFBDB2B0AFFF900D43BF9 /* SwiftUICoinOrderbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDFBDA2B0AFFF900D43BF9 /* SwiftUICoinOrderbookApp.swift */; };
 		CEBDFBDD2B0AFFF900D43BF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDFBDC2B0AFFF900D43BF9 /* ContentView.swift */; };
 		CEBDFBDF2B0AFFFA00D43BF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBDFBDE2B0AFFFA00D43BF9 /* Assets.xcassets */; };
@@ -32,6 +35,9 @@
 		CEA902F52B141D8F00F09FB8 /* SeSACView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACView.swift; sourceTree = "<group>"; };
 		CEA902F72B141E6300F09FB8 /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		CEA902F92B14219B00F09FB8 /* MyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextField.swift; sourceTree = "<group>"; };
+		CEA902FC2B14328D00F09FB8 /* HorizontalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalView.swift; sourceTree = "<group>"; };
+		CEA902FE2B14357100F09FB8 /* HorizontalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalData.swift; sourceTree = "<group>"; };
+		CEA903002B143C6400F09FB8 /* HorizontalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalViewModel.swift; sourceTree = "<group>"; };
 		CEBDFBD72B0AFFF900D43BF9 /* SwiftUICoinOrderbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICoinOrderbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBDFBDA2B0AFFF900D43BF9 /* SwiftUICoinOrderbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICoinOrderbookApp.swift; sourceTree = "<group>"; };
 		CEBDFBDC2B0AFFF900D43BF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +78,16 @@
 			path = WithUIKit;
 			sourceTree = "<group>";
 		};
+		CEA902FB2B14327800F09FB8 /* Horizontal */ = {
+			isa = PBXGroup;
+			children = (
+				CEA902FC2B14328D00F09FB8 /* HorizontalView.swift */,
+				CEA902FE2B14357100F09FB8 /* HorizontalData.swift */,
+				CEA903002B143C6400F09FB8 /* HorizontalViewModel.swift */,
+			);
+			path = Horizontal;
+			sourceTree = "<group>";
+		};
 		CEBDFBCE2B0AFFF900D43BF9 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +107,7 @@
 		CEBDFBD92B0AFFF900D43BF9 /* SwiftUICoinOrderbook */ = {
 			isa = PBXGroup;
 			children = (
+				CEA902FB2B14327800F09FB8 /* Horizontal */,
 				CEA902F42B141D7200F09FB8 /* WithUIKit */,
 				CEFD67142B0D85BA00EF5E69 /* Animation */,
 				CEF386B72B0C4E640011E002 /* Network */,
@@ -214,6 +231,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA902FD2B14328D00F09FB8 /* HorizontalView.swift in Sources */,
+				CEA902FF2B14357100F09FB8 /* HorizontalData.swift in Sources */,
+				CEA903012B143C6400F09FB8 /* HorizontalViewModel.swift in Sources */,
 				CEF386BF2B0C73520011E002 /* ListViewModel.swift in Sources */,
 				CEF386BB2B0C59660011E002 /* ContentViewModel.swift in Sources */,
 				CEF386BD2B0C73370011E002 /* ListView.swift in Sources */,
