@@ -85,6 +85,7 @@ struct ContentView: View {
                     .bold()
                     .font(.title)
             }
+            .padding(.leading, 15)
 //            .visualEffect { content, geometryProxy in
 //                content.offset(x: scrollOffset(geometryProxy))
 //            }
