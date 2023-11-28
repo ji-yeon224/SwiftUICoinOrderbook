@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE75C3DA2B157F4000A08615 /* OrderBookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75C3D92B157F4000A08615 /* OrderBookModel.swift */; };
 		CEA902F62B141D8F00F09FB8 /* SeSACView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA902F52B141D8F00F09FB8 /* SeSACView.swift */; };
 		CEA902F82B141E6300F09FB8 /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA902F72B141E6300F09FB8 /* MyWebView.swift */; };
 		CEA902FA2B14219B00F09FB8 /* MyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA902F92B14219B00F09FB8 /* MyTextField.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE75C3D92B157F4000A08615 /* OrderBookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBookModel.swift; sourceTree = "<group>"; };
 		CEA902F52B141D8F00F09FB8 /* SeSACView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACView.swift; sourceTree = "<group>"; };
 		CEA902F72B141E6300F09FB8 /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		CEA902F92B14219B00F09FB8 /* MyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextField.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				CEA902FC2B14328D00F09FB8 /* HorizontalView.swift */,
 				CEA902FE2B14357100F09FB8 /* HorizontalData.swift */,
 				CEA903002B143C6400F09FB8 /* HorizontalViewModel.swift */,
+				CE75C3D92B157F4000A08615 /* OrderBookModel.swift */,
 			);
 			path = Horizontal;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE75C3DA2B157F4000A08615 /* OrderBookModel.swift in Sources */,
 				CEA902FD2B14328D00F09FB8 /* HorizontalView.swift in Sources */,
 				CEA902FF2B14357100F09FB8 /* HorizontalData.swift in Sources */,
 				CEA903012B143C6400F09FB8 /* HorizontalViewModel.swift in Sources */,
