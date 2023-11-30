@@ -38,7 +38,8 @@
 		CEE80AC02B18304C0041AC36 /* MyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE80ABF2B18304C0041AC36 /* MyWidget.swift */; };
 		CEE80AC22B18304D0041AC36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE80AC12B18304D0041AC36 /* Assets.xcassets */; };
 		CEE80AC62B18304D0041AC36 /* MyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CEE80AB92B18304C0041AC36 /* MyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		CEE80ACB2B1832300041AC36 /* WidgetTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE80ACA2B1832300041AC36 /* WidgetTapView.swift */; };
+		CEE80AD62B187D080041AC36 /* WidgetTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE80AD52B187D080041AC36 /* WidgetTapView.swift */; };
+		CEE80AD72B187D4C0041AC36 /* WidgetTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE80AD52B187D080041AC36 /* WidgetTapView.swift */; };
 		CEF386B62B0C4A220011E002 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF386B52B0C4A220011E002 /* OverlayView.swift */; };
 		CEF386B92B0C4E750011E002 /* UpbitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF386B82B0C4E750011E002 /* UpbitAPI.swift */; };
 		CEF386BB2B0C59660011E002 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF386BA2B0C59660011E002 /* ContentViewModel.swift */; };
@@ -116,7 +117,7 @@
 		CEE80ABF2B18304C0041AC36 /* MyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWidget.swift; sourceTree = "<group>"; };
 		CEE80AC12B18304D0041AC36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE80AC32B18304D0041AC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEE80ACA2B1832300041AC36 /* WidgetTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTapView.swift; sourceTree = "<group>"; };
+		CEE80AD52B187D080041AC36 /* WidgetTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTapView.swift; sourceTree = "<group>"; };
 		CEF386B52B0C4A220011E002 /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
 		CEF386B82B0C4E750011E002 /* UpbitAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpbitAPI.swift; sourceTree = "<group>"; };
 		CEF386BA2B0C59660011E002 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
@@ -242,7 +243,7 @@
 				CEBDFBDE2B0AFFFA00D43BF9 /* Assets.xcassets */,
 				CEBDFBE02B0AFFFA00D43BF9 /* Preview Content */,
 				CEE80A9D2B18204E0041AC36 /* UserDefaultsGroup.swift */,
-				CEE80ACA2B1832300041AC36 /* WidgetTapView.swift */,
+				CEE80AD52B187D080041AC36 /* WidgetTapView.swift */,
 			);
 			path = SwiftUICoinOrderbook;
 			sourceTree = "<group>";
@@ -460,7 +461,6 @@
 				CEA903012B143C6400F09FB8 /* HorizontalViewModel.swift in Sources */,
 				CEF386BF2B0C73520011E002 /* ListViewModel.swift in Sources */,
 				CEF386BB2B0C59660011E002 /* ContentViewModel.swift in Sources */,
-				CEE80ACB2B1832300041AC36 /* WidgetTapView.swift in Sources */,
 				CEF386BD2B0C73370011E002 /* ListView.swift in Sources */,
 				CEBDFBDD2B0AFFF900D43BF9 /* ContentView.swift in Sources */,
 				CEBDFBDB2B0AFFF900D43BF9 /* SwiftUICoinOrderbookApp.swift in Sources */,
@@ -472,6 +472,7 @@
 				CEFD671A2B0DA52A00EF5E69 /* WalletModel.swift in Sources */,
 				CEA902F82B141E6300F09FB8 /* MyWebView.swift in Sources */,
 				CEF386B62B0C4A220011E002 /* OverlayView.swift in Sources */,
+				CEE80AD62B187D080041AC36 /* WidgetTapView.swift in Sources */,
 				CEBDFBED2B0B0A7E00D43BF9 /* ContentViewAssignment.swift in Sources */,
 				CEF386B92B0C4E750011E002 /* UpbitAPI.swift in Sources */,
 				CEA902F62B141D8F00F09FB8 /* SeSACView.swift in Sources */,
@@ -485,6 +486,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE80ABE2B18304C0041AC36 /* MyWidgetBundle.swift in Sources */,
+				CEE80AD72B187D4C0041AC36 /* WidgetTapView.swift in Sources */,
 				CEE80AC02B18304C0041AC36 /* MyWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
