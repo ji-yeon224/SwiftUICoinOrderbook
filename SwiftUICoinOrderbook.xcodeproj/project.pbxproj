@@ -27,6 +27,18 @@
 		CEBDFBEA2B0B090E00D43BF9 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDFBE82B0B090E00D43BF9 /* Banner.swift */; };
 		CEBDFBEB2B0B090E00D43BF9 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDFBE92B0B090E00D43BF9 /* Money.swift */; };
 		CEBDFBED2B0B0A7E00D43BF9 /* ContentViewAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDFBEC2B0B0A7E00D43BF9 /* ContentViewAssignment.swift */; };
+		CEE80A932B1819380041AC36 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE80A912B1819380041AC36 /* Provider.swift */; };
+		CEE80A962B181A420041AC36 /* SimpleEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE80A952B181A420041AC36 /* SimpleEntry.swift */; };
+		CEE80A992B181A8F0041AC36 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE80A982B181A8F0041AC36 /* EntryView.swift */; };
+		CEE80A9E2B18204E0041AC36 /* UserDefaultsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE80A9D2B18204E0041AC36 /* UserDefaultsGroup.swift */; };
+		CEE80A9F2B1820660041AC36 /* UserDefaultsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE80A9D2B18204E0041AC36 /* UserDefaultsGroup.swift */; };
+		CEE80ABA2B18304C0041AC36 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE76DFFC2B16D22100A38041 /* WidgetKit.framework */; };
+		CEE80ABB2B18304C0041AC36 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE76DFFE2B16D22100A38041 /* SwiftUI.framework */; };
+		CEE80ABE2B18304C0041AC36 /* MyWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE80ABD2B18304C0041AC36 /* MyWidgetBundle.swift */; };
+		CEE80AC02B18304C0041AC36 /* MyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE80ABF2B18304C0041AC36 /* MyWidget.swift */; };
+		CEE80AC22B18304D0041AC36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE80AC12B18304D0041AC36 /* Assets.xcassets */; };
+		CEE80AC62B18304D0041AC36 /* MyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CEE80AB92B18304C0041AC36 /* MyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CEE80ACB2B1832300041AC36 /* WidgetTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE80ACA2B1832300041AC36 /* WidgetTapView.swift */; };
 		CEF386B62B0C4A220011E002 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF386B52B0C4A220011E002 /* OverlayView.swift */; };
 		CEF386B92B0C4E750011E002 /* UpbitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF386B82B0C4E750011E002 /* UpbitAPI.swift */; };
 		CEF386BB2B0C59660011E002 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF386BA2B0C59660011E002 /* ContentViewModel.swift */; };
@@ -46,6 +58,13 @@
 			remoteGlobalIDString = CE76DFF92B16D22000A38041;
 			remoteInfo = OrderBookExtension;
 		};
+		CEE80AC42B18304D0041AC36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEBDFBCF2B0AFFF900D43BF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE80AB82B18304C0041AC36;
+			remoteInfo = MyWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +74,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				CEE80AC62B18304D0041AC36 /* MyWidgetExtension.appex in Embed Foundation Extensions */,
 				CE76E00A2B16D22200A38041 /* OrderBookExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
@@ -85,6 +105,18 @@
 		CEBDFBE82B0B090E00D43BF9 /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 		CEBDFBE92B0B090E00D43BF9 /* Money.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
 		CEBDFBEC2B0B0A7E00D43BF9 /* ContentViewAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewAssignment.swift; sourceTree = "<group>"; };
+		CEE80A912B1819380041AC36 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		CEE80A952B181A420041AC36 /* SimpleEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEntry.swift; sourceTree = "<group>"; };
+		CEE80A982B181A8F0041AC36 /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
+		CEE80A9B2B181ECE0041AC36 /* OrderBookExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OrderBookExtension.entitlements; sourceTree = "<group>"; };
+		CEE80A9C2B181FC40041AC36 /* SwiftUICoinOrderbook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUICoinOrderbook.entitlements; sourceTree = "<group>"; };
+		CEE80A9D2B18204E0041AC36 /* UserDefaultsGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsGroup.swift; sourceTree = "<group>"; };
+		CEE80AB92B18304C0041AC36 /* MyWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE80ABD2B18304C0041AC36 /* MyWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWidgetBundle.swift; sourceTree = "<group>"; };
+		CEE80ABF2B18304C0041AC36 /* MyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWidget.swift; sourceTree = "<group>"; };
+		CEE80AC12B18304D0041AC36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEE80AC32B18304D0041AC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE80ACA2B1832300041AC36 /* WidgetTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTapView.swift; sourceTree = "<group>"; };
 		CEF386B52B0C4A220011E002 /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
 		CEF386B82B0C4E750011E002 /* UpbitAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpbitAPI.swift; sourceTree = "<group>"; };
 		CEF386BA2B0C59660011E002 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
@@ -113,6 +145,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEE80AB62B18304C0041AC36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE80ABB2B18304C0041AC36 /* SwiftUI.framework in Frameworks */,
+				CEE80ABA2B18304C0041AC36 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -128,6 +169,8 @@
 		CE76E0002B16D22100A38041 /* OrderBook */ = {
 			isa = PBXGroup;
 			children = (
+				CEE80A942B181A220041AC36 /* Entry */,
+				CEE80A902B1819190041AC36 /* Provider */,
 				CE76E0012B16D22100A38041 /* OrderBookBundle.swift */,
 				CE76E0032B16D22100A38041 /* OrderBook.swift */,
 				CE76E0052B16D22200A38041 /* Assets.xcassets */,
@@ -160,8 +203,10 @@
 		CEBDFBCE2B0AFFF900D43BF9 = {
 			isa = PBXGroup;
 			children = (
+				CEE80A9B2B181ECE0041AC36 /* OrderBookExtension.entitlements */,
 				CEBDFBD92B0AFFF900D43BF9 /* SwiftUICoinOrderbook */,
 				CE76E0002B16D22100A38041 /* OrderBook */,
+				CEE80ABC2B18304C0041AC36 /* MyWidget */,
 				CE76DFFB2B16D22100A38041 /* Frameworks */,
 				CEBDFBD82B0AFFF900D43BF9 /* Products */,
 			);
@@ -172,6 +217,7 @@
 			children = (
 				CEBDFBD72B0AFFF900D43BF9 /* SwiftUICoinOrderbook.app */,
 				CE76DFFA2B16D22100A38041 /* OrderBookExtension.appex */,
+				CEE80AB92B18304C0041AC36 /* MyWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -179,6 +225,7 @@
 		CEBDFBD92B0AFFF900D43BF9 /* SwiftUICoinOrderbook */ = {
 			isa = PBXGroup;
 			children = (
+				CEE80A9C2B181FC40041AC36 /* SwiftUICoinOrderbook.entitlements */,
 				CEA902FB2B14327800F09FB8 /* Horizontal */,
 				CEA902F42B141D7200F09FB8 /* WithUIKit */,
 				CEFD67142B0D85BA00EF5E69 /* Animation */,
@@ -194,6 +241,8 @@
 				CEF386B52B0C4A220011E002 /* OverlayView.swift */,
 				CEBDFBDE2B0AFFFA00D43BF9 /* Assets.xcassets */,
 				CEBDFBE02B0AFFFA00D43BF9 /* Preview Content */,
+				CEE80A9D2B18204E0041AC36 /* UserDefaultsGroup.swift */,
+				CEE80ACA2B1832300041AC36 /* WidgetTapView.swift */,
 			);
 			path = SwiftUICoinOrderbook;
 			sourceTree = "<group>";
@@ -204,6 +253,34 @@
 				CEBDFBE12B0AFFFA00D43BF9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEE80A902B1819190041AC36 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				CEE80A912B1819380041AC36 /* Provider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		CEE80A942B181A220041AC36 /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				CEE80A952B181A420041AC36 /* SimpleEntry.swift */,
+				CEE80A982B181A8F0041AC36 /* EntryView.swift */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		CEE80ABC2B18304C0041AC36 /* MyWidget */ = {
+			isa = PBXGroup;
+			children = (
+				CEE80ABD2B18304C0041AC36 /* MyWidgetBundle.swift */,
+				CEE80ABF2B18304C0041AC36 /* MyWidget.swift */,
+				CEE80AC12B18304D0041AC36 /* Assets.xcassets */,
+				CEE80AC32B18304D0041AC36 /* Info.plist */,
+			);
+			path = MyWidget;
 			sourceTree = "<group>";
 		};
 		CEF386B42B0C43990011E002 /* Model */ = {
@@ -266,11 +343,29 @@
 			);
 			dependencies = (
 				CE76E0092B16D22200A38041 /* PBXTargetDependency */,
+				CEE80AC52B18304D0041AC36 /* PBXTargetDependency */,
 			);
 			name = SwiftUICoinOrderbook;
 			productName = SwiftUICoinOrderbook;
 			productReference = CEBDFBD72B0AFFF900D43BF9 /* SwiftUICoinOrderbook.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CEE80AB82B18304C0041AC36 /* MyWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE80AC72B18304D0041AC36 /* Build configuration list for PBXNativeTarget "MyWidgetExtension" */;
+			buildPhases = (
+				CEE80AB52B18304C0041AC36 /* Sources */,
+				CEE80AB62B18304C0041AC36 /* Frameworks */,
+				CEE80AB72B18304C0041AC36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyWidgetExtension;
+			productName = MyWidgetExtension;
+			productReference = CEE80AB92B18304C0041AC36 /* MyWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -286,6 +381,9 @@
 						CreatedOnToolsVersion = 15.0.1;
 					};
 					CEBDFBD62B0AFFF900D43BF9 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					CEE80AB82B18304C0041AC36 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
@@ -305,6 +403,7 @@
 			targets = (
 				CEBDFBD62B0AFFF900D43BF9 /* SwiftUICoinOrderbook */,
 				CE76DFF92B16D22000A38041 /* OrderBookExtension */,
+				CEE80AB82B18304C0041AC36 /* MyWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -327,6 +426,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEE80AB72B18304C0041AC36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE80AC22B18304D0041AC36 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -334,7 +441,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE80A962B181A420041AC36 /* SimpleEntry.swift in Sources */,
 				CE76E0022B16D22100A38041 /* OrderBookBundle.swift in Sources */,
+				CEE80A992B181A8F0041AC36 /* EntryView.swift in Sources */,
+				CEE80A932B1819380041AC36 /* Provider.swift in Sources */,
+				CEE80A9F2B1820660041AC36 /* UserDefaultsGroup.swift in Sources */,
 				CE76E0042B16D22100A38041 /* OrderBook.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,10 +460,12 @@
 				CEA903012B143C6400F09FB8 /* HorizontalViewModel.swift in Sources */,
 				CEF386BF2B0C73520011E002 /* ListViewModel.swift in Sources */,
 				CEF386BB2B0C59660011E002 /* ContentViewModel.swift in Sources */,
+				CEE80ACB2B1832300041AC36 /* WidgetTapView.swift in Sources */,
 				CEF386BD2B0C73370011E002 /* ListView.swift in Sources */,
 				CEBDFBDD2B0AFFF900D43BF9 /* ContentView.swift in Sources */,
 				CEBDFBDB2B0AFFF900D43BF9 /* SwiftUICoinOrderbookApp.swift in Sources */,
 				CEF386C12B0C80980011E002 /* BannerTestView.swift in Sources */,
+				CEE80A9E2B18204E0041AC36 /* UserDefaultsGroup.swift in Sources */,
 				CEBDFBEB2B0B090E00D43BF9 /* Money.swift in Sources */,
 				CEFD67182B0D992300EF5E69 /* WalletDetailView.swift in Sources */,
 				CEA902FA2B14219B00F09FB8 /* MyTextField.swift in Sources */,
@@ -367,6 +480,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEE80AB52B18304C0041AC36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE80ABE2B18304C0041AC36 /* MyWidgetBundle.swift in Sources */,
+				CEE80AC02B18304C0041AC36 /* MyWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -374,6 +496,11 @@
 			isa = PBXTargetDependency;
 			target = CE76DFF92B16D22000A38041 /* OrderBookExtension */;
 			targetProxy = CE76E0082B16D22200A38041 /* PBXContainerItemProxy */;
+		};
+		CEE80AC52B18304D0041AC36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE80AB82B18304C0041AC36 /* MyWidgetExtension */;
+			targetProxy = CEE80AC42B18304D0041AC36 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -383,6 +510,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = OrderBookExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DJP8DYB9HG;
@@ -410,6 +538,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = OrderBookExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DJP8DYB9HG;
@@ -557,6 +686,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftUICoinOrderbook/SwiftUICoinOrderbook.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICoinOrderbook/Preview Content\"";
@@ -587,6 +717,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftUICoinOrderbook/SwiftUICoinOrderbook.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICoinOrderbook/Preview Content\"";
@@ -605,6 +736,60 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiyeon.SwiftUICoinOrderbook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEE80AC82B18304D0041AC36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DJP8DYB9HG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiyeon.SwiftUICoinOrderbook.MyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE80AC92B18304D0041AC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DJP8DYB9HG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiyeon.SwiftUICoinOrderbook.MyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -637,6 +822,15 @@
 			buildConfigurations = (
 				CEBDFBE62B0AFFFA00D43BF9 /* Debug */,
 				CEBDFBE72B0AFFFA00D43BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE80AC72B18304D0041AC36 /* Build configuration list for PBXNativeTarget "MyWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE80AC82B18304D0041AC36 /* Debug */,
+				CEE80AC92B18304D0041AC36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
